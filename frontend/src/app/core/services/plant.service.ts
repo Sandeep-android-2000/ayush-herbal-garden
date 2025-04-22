@@ -8,7 +8,7 @@ import { Plant } from '../models/plant.model';
 })
 export class PlantService {
 
-  private apiUrl = 'http://ayush-garden-env.eba-ppydsppg.ap-south-1.elasticbeanstalk.com/api/plants';  // Your backend API URL
+  private apiUrl = '/api/plants';  // Your backend API URL
 
   constructor(private http: HttpClient) { }
 

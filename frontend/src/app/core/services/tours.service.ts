@@ -7,7 +7,7 @@ import { Tour } from '../models/tour.model';
   providedIn: 'root'
 })
 export class ToursService {
-  private baseUrl = 'http://localhost:8080/api/tours'; // Adjust the base URL if needed
+  private baseUrl = '/api/tours'; // Adjust the base URL if needed
 
   constructor(private http: HttpClient) {}
 

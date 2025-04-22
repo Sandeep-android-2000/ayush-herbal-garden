@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/api/*"
+  to = "http://ayush-garden-env.eba-ppydsppg.ap-south-1.elasticbeanstalk.com/api/:splat"
+  status = 200
+  force = true
